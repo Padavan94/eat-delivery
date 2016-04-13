@@ -1,0 +1,11 @@
+a{
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+	transition: all .2s ease-out;
+	&:hover, &:active, &:focus{
+		color: #fff;
+		text-decoration: none;
+		outline: none;
+	}
+}

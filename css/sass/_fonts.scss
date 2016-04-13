@@ -1,0 +1,6 @@
+@import "bourbon/bourbon";
+
+@include font-face("Sunday", "../fonts/Sunday-Regular", normal, $file-formats: woff);
+@include font-face("Helvetica-r", "../fonts/HelveticaNeueCyr-Roman", normal, $file-formats: woff);
+@include font-face("Helvetica-ul", "../fonts/HelveticaNeueCyr-UltraLight", normal, $file-formats: woff);
+@include font-face("cocon-regular", "../fonts/Cocon_Regular", normal, $file-formats: woff);

@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,700,400,600);
+/* @font-face {
+  font-family: "Opensans-r";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/OpenSans600.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans-b";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/OpenSans800.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans-sb";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/OpenSans700.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans-l";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/OpenSans300.ttf") format("truetype"); }
+@font-face {
+  font-family: "Opensans-i";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/OpenSans600italic.ttf") format("truetype"); } */
+@font-face {
+  font-family: "Proxima-r";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/ProximaNovaExtraCondensedRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-l";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/ProximaNovaExtraCondensedLight.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-sb";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/ProximaNovaExtraCondensedSemibold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-b";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/ProximaNovaExtraCondensedBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Proxima-black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima/ProximaNovaExtraCondensedBlack.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */
