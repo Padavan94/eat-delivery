@@ -48,6 +48,9 @@
 	bottom: 175px;
 	transition: all .3s ease-out;
 	z-index: 130;
+	&--orange{
+		background-color: #de7924 !important;
+	}
 	&.active{
 		right: 10px;
 	}
@@ -69,7 +72,7 @@
 		}
 		&__input-wrap{
 			margin-bottom: 17px;
-			input{
+			input,textarea{
 				width: 100%;
 				padding: 0px 12px;
 				box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.35);
@@ -77,6 +80,11 @@
 				color: #333;
 				font-family: "Helvetica-ul";
 				letter-spacing: 1px;
+			}
+			textarea{
+				height: 100px;
+				resize: none;
+				padding: 12px;
 			}
 		}
 		&__submit-wrap{
@@ -250,7 +258,7 @@
 			box-shadow: 0 7px 6px rgba(0,0,0,.7);
 			position: relative;
 			top: 0;
-			&:hover, &:active, &:focus{
+			&:hover, &:active, &:focus, &.active{
 				top: 4px;
 				box-shadow: 0px 0px 2px rgba(0,0,0,.4);
 				background-color: #8f1f25;
@@ -734,7 +742,7 @@
 			text-transform: uppercase;
 			position: relative;
 			box-shadow: 10px 0px 6px rgba(0, 0, 0, 0.4);
-			&:hover, &:active, &:focus{
+			&:hover, &:active, &:focus, &.active{
 				box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
 				left: 10px;
 				color: #030303;
@@ -784,6 +792,9 @@
 			h4{
 				text-transform: uppercase;
 			}
+			p{
+				margin-bottom: 0;
+			}
 		}
 		&__image{
 			max-width: 128px;
@@ -795,7 +806,7 @@
 		&__weight{
 			min-width: 80px;
 			text-align: center;
-			padding-top: 48px;
+			padding-top: 60px;
 			position: relative;
 			&:before{
 				content: "";
@@ -813,7 +824,7 @@
 		&__price{
 			min-width: 80px;
 			text-align: center;
-			padding-top: 48px;
+			padding-top: 60px;
 			position: relative;
 			&:before{
 				content: "";
@@ -834,20 +845,15 @@
 			background-color: transparent;
 			transition: all .2s ease-out;
 			position: relative;
-			padding-top: 48px;
 			padding-bottom: 0;
-			&:before{
-				content: "";
-				bottom: 40%;
-				width: 58px;
-				height: 48px;
-				left: 50%;
-				margin-left: -29px;
-				background-image: url("/img/cart_sprites.png");
-				background-repeat: no-repeat;
-				background-position: center -96px;
-				position: absolute;
+			a{
+				transform: rotate(0deg);
+				display: inline-block;
 			}
+			a:hover{
+				transform: rotate(5deg);
+			}
+			
 			.number{
 				input{
 					border: none !important;
@@ -1263,10 +1269,12 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			margin-top: 10px;
 			.arrow{
+				transform: scale(-1,1);
 				cursor: pointer;
 				&--inverse{
-					transform: scale(-1,1);
+					transform: scale(1);
 				}
 			}
 			.number{

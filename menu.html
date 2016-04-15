@@ -20,7 +20,7 @@
 	       <img src="/img/pizza.gif">
 	    </div>
 	</div>
-	<a href=".callback" class="button__contact-us">Есть вопросы?<br>Свяжитесь с нами!</a>
+	<a href=".for-magnific" class="button__contact-us">Есть вопросы?<br>Свяжитесь с нами!</a>
 	<div class="main-wrapper">
 		<div class="container con-mod">
 			<div class="header-wrapper">
@@ -112,7 +112,7 @@
 				<div class="food-menu__categories">
 					<div class="food-menu__categories__pick-date">Выберите день недели</div>
 					<nav class="food-menu__categories__menu">
-						<a href="#">Понедельник</a>
+						<a class="active" href="#">Понедельник</a>
 						<a href="#">вторник</a>
 						<a href="#">среда</a>
 						<a href="#">четверг</a>
@@ -142,7 +142,7 @@
 								<a href="#" class="food-menu__sidebar__link">ХИТЫ</a>
 								<a href="#" class="food-menu__sidebar__link">АКЦИИ</a>
 							</div>
-							<a href="#" class="food-menu__sidebar__individual">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
+							<a href=".for-magnific--second" class="food-menu__sidebar__individual open-popup">ИНДИВИДУАЛЬНЫЙ ЗАКАЗ</a>
 						</div>
 					</div>
 					<!-- food-menu__sidebar end -->
@@ -161,10 +161,10 @@
 									</div>
 									<div class="food-menu__content__description">
 										<h4>Комплексный обед №1</h4>
-										<span>Салат из капусты с огурцом</span>
-										<span>Суп марокканский</span>
-										<span>Хлеб (3 кус.)</span>
-										<span>Одноразовая посуда(вилка, ложка, нож, соль,перец)</span>
+										<p>Салат из капусты с огурцом</p>
+										<p>Суп марокканский</p>
+										<p>Хлеб (3 кус.)</p>
+										<p>Одноразовая посуда(вилка, ложка, нож, соль,перец)</p>
 									</div>
 									<div class="food-menu__content__weight">
 										250г
@@ -175,13 +175,13 @@
 									<div class="food-menu__content__add-to-cart">
 										<div class="cart-form__eat-box__counter">
 											<div class="arrow arrow--inverse">
-												<img src="/img/arrow.svg" alt="arrow">
+												<img src="/img/arrow.svg" class="svg" alt="arrow">
 											</div>
 											<div class="number">
 												<input value="1" type="text">
 											</div>
 											<div class="arrow">
-												<img src="/img/arrow.svg" alt="arrow">
+												<img src="/img/arrow.svg" class="svg" alt="arrow">
 											</div>
 										</div>
 									</div>
@@ -207,15 +207,16 @@
 										45грн
 									</div>
 									<div class="food-menu__content__add-to-cart">
+										<a href="#"><img src="/img/cart2.png" alt="cart2"></a>
 										<div class="cart-form__eat-box__counter">
 											<div class="arrow arrow--inverse">
-												<img src="/img/arrow.svg" alt="arrow">
+												<img src="/img/arrow.png" alt="arrow">
 											</div>
 											<div class="number">
 												<input value="1" type="text">
 											</div>
 											<div class="arrow">
-												<img src="/img/arrow.svg" alt="arrow">
+												<img src="/img/arrow.png" alt="arrow">
 											</div>
 										</div>
 									</div>
@@ -416,6 +417,37 @@
 					<div class="callback__form__input-wrap">
 						<input type="text" placeholder="Введите номер телефона" required>
 					</div>
+					<div class="callback__form__res">
+						
+					</div>
+					<div class="callback__form__submit-wrap">
+						<input type="submit" value="Перезвоните мне">
+					</div>
+				</form>
+			</div>	
+		</div>
+	<!-- popups and forms end -->
+
+	<!-- popups and forms start -->
+		<div class="callback callback--orange for-magnific--second">
+			<div class="callback__form-wrap">
+				<form id="callback_form9" class="callback__form" method="POST" action="javascript:void(null);")>
+					<div class="callback__form__close mfp-close">
+						x
+					</div>
+					<div class="callback__form__title">
+						Есть вопросы?<br> Свяжитесь с нами!
+					</div>
+					<div class="callback__form__input-wrap">
+						<input type="text" placeholder="Введите имя" required>
+					</div>
+					<div class="callback__form__input-wrap">
+						<input type="text" placeholder="Введите номер телефона" required>
+					</div>
+					<div class="callback__form__input-wrap">
+						<textarea name="#" id="#" placeholder="Коментарий"></textarea>
+					</div>
+
 					<div class="callback__form__res">
 						
 					</div>
